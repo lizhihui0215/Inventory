@@ -8,7 +8,7 @@ import { ProductsComponent } from './products/products.component';
 import { ProductComponent } from './products/product/product.component';
 import { SharedComponent } from './shared/shared.component';
 import { CoreComponent } from './core/core.component';
-import { ProductsListComponent } from "./products/products-list/products-list.component";
+import { ProductsListComponent } from './products/products-list/products-list.component';
 import { ProductImageComponent } from './products/shared/product-image/product-image.component';
 import { ProductDepartmentComponent } from './products/shared/product-department/product-department.component';
 import { ProductPriceComponent } from './products/shared/product-price/product-price.component';

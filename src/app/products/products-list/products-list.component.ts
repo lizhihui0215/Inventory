@@ -1,5 +1,5 @@
 import {Component, OnInit, Input, Output, EventEmitter} from '@angular/core';
-import {Product} from "../shared/product.model";
+import {Product} from '../shared/product.model';
 
 @Component({
   selector: 'app-products-list',
@@ -24,7 +24,7 @@ export class ProductsListComponent implements OnInit {
   }
 
   isSelected(product: Product): boolean {
-    if (!product || !this.selectedProduct) return false;
+    if (!product || !this.selectedProduct) { return false; }
 
     return product.sku === this.selectedProduct.sku;
   }
