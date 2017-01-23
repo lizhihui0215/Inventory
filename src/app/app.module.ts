@@ -12,6 +12,7 @@ import { ProductsListComponent } from './products/products-list/products-list.co
 import { ProductImageComponent } from './products/shared/product-image/product-image.component';
 import { ProductDepartmentComponent } from './products/shared/product-department/product-department.component';
 import { ProductPriceComponent } from './products/shared/product-price/product-price.component';
+import { FormsComponent } from './forms/forms.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,9 @@ import { ProductPriceComponent } from './products/shared/product-price/product-p
     SharedComponent,
     ProductImageComponent,
     ProductDepartmentComponent,
-    ProductPriceComponent
+    ProductPriceComponent,
+    FormsComponent,
+    FormsModule
   ],
   imports: [
     BrowserModule,
